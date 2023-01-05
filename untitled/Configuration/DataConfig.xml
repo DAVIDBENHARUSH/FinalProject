@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Envaiorment>
+
+    <!--Timeout-->
+    <Timeout>5</Timeout>
+
+    <!--General-->
+    <PlatformName>web</PlatformName>
+
+    <!--Authorization-->
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+    <!--web-->
+<BrowserName>chrome</BrowserName>
+<Url>http://localhost:3000/</Url>
+    <ImageRepo>C:\Users\97252\IdeaProjects\untitled\ImageRepository\</ImageRepo>
+
+    <!--Data Driven Testing-->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!--Mobile-->
+    <UDID>RF8MB0X1MNV</UDID>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!--Api-->
+    <urlAPI>http://localhost:3000/</urlAPI>
+    <!--Electron-->
+    <ElectronDriverPath>Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:\Users\97252\AppData\Local\Programs\todolist\Todolist.exe</ElectronAppPath>
+    <!--DesktoDBPasswordp-->
+     <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+    <!--Database-->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/sql8584187</DBURL>
+    <DBUserName>sql8584187</DBUserName>
+    <DBPassword>EiFkxqd2wu</DBPassword>
+</Envaiorment>

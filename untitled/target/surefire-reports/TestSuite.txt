@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.575 s <<< FAILURE! - in TestSuite
+test06_verifyAvatarIcon(sanity.GrafanaWeb)  Time elapsed: 1.77 s  <<< FAILURE!
+java.lang.AssertionError: 
+Error in Image File: FindFailed: C:\Users\97252\IdeaProjects\untitled\ImageRepository\grafanaAvatar.png: (46x56) in R[0,0 1536x864]@S(0)
+  Line 2287, in file Region.java
+
+	at sanity.GrafanaWeb.test06_verifyAvatarIcon(GrafanaWeb.java:60)
+
